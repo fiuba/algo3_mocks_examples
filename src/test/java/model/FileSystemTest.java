@@ -1,21 +1,13 @@
 package model;
 
-import harnesses.ResourceLoader;
-import org.json.JSONObject;
 import org.junit.Test;
 import org.mockito.Mockito;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Consumer;
 
 import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertNull;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
 
 /**
  * Created by dsanchez on 12/2/17.
