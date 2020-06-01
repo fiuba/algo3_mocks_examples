@@ -1,4 +1,4 @@
-package model;
+package ar.edu.unqui.fs;
 
 import org.junit.Test;
 import org.mockito.Mockito;
