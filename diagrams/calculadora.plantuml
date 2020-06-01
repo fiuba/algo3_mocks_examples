@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+interface Multiplicador
+Multiplicador : producto(n1 Integer, n2 Integer)
+
+Multiplicador <|.. MultiplicadorMocked
+MultiplicadorMocked : producto(n1 Integer, n2 Integer)
+
+Multiplicador <|.. MultiplicadorProductivo
+MultiplicadorProductivo : producto(n1 Integer, n2 Integer)
+
+Calculadora *- Multiplicador
+
+@enduml

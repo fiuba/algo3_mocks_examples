@@ -1,0 +1,12 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+interface Reloj
+Reloj : ahora() Date
+
+Reloj <|.. FakeClock
+FakeClock : ahora() Date
+
+Clima *- Reloj
+
+@enduml
