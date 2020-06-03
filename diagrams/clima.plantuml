@@ -7,6 +7,10 @@ Reloj : ahora() Date
 Reloj <|.. FakeClock
 FakeClock : ahora() Date
 
+Reloj <|.. RelojProductivo
+RelojProductivo : ahora() Date
+
+
 Clima *- Reloj
 
 @enduml

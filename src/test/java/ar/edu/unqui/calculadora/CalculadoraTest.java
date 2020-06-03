@@ -13,14 +13,14 @@ public class CalculadoraTest {
     @Test
     public void calculadoraDependeModuloMultiplicadorNoImplementado() {
         Multiplicador m = Mockito.mock(Multiplicador.class);
-        when(m.producto(1, 2)).thenReturn(2);
+        when(m.producto(1, 2)).thenReturn(4);
 
         Calculadora c = new Calculadora(m);
 
-        assertEquals(2, c.producto(1,2));
+        assertEquals(4, c.producto(1,2));
 
         // Agrega valor?
-        verify(m).producto(1,2);
+        // verify(m).producto(1,2);
     }
 
     @Test
@@ -31,4 +31,5 @@ public class CalculadoraTest {
 
         assertEquals(2, c.producto(1,2));
     }
+
 }
