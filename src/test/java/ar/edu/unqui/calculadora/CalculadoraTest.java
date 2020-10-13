@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class CalculadoraTest {
@@ -13,7 +12,7 @@ public class CalculadoraTest {
     @Test
     public void calculadoraDependeModuloMultiplicadorNoImplementado() {
         Multiplicador m = Mockito.mock(Multiplicador.class);
-        when(m.producto(1, 2)).thenReturn(4);
+        when(m.producto(1, 2)).thenReturn(4);       // Test Stub con comportamiento fallido
 
         Calculadora c = new Calculadora(m);
 
