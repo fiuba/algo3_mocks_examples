@@ -1,3 +1,5 @@
+![CI status](https://github.com/unvqui/eis_mocks_examples/workflows/ci/badge.svg)
+
 # Ejemplos de mocking
 
 Eston son pruebas que involucra `Stub`, `Fake` y `Mocks`. Cada uno de los ejemplos muestra utilidad para cado uno de estos casos de impostores.
