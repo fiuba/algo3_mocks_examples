@@ -1,6 +1,6 @@
 package ar.edu.unqui.multiplicador;
 
-import ar.edu.unqui.calculadora.Multiplicador;
+import ar.edu.unqui.stubs.calculadora.Multiplicador;
 
 public class MultiplicadorProductivo implements Multiplicador {
     @Override

@@ -1,4 +1,4 @@
-package ar.edu.unqui.calculadora;
+package ar.edu.unqui.stubs.calculadora;
 
 import ar.edu.unqui.multiplicador.MultiplicadorProductivo;
 import org.junit.jupiter.api.Test;

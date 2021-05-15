@@ -1,4 +1,4 @@
-package ar.edu.unqui.clima;
+package ar.edu.unqui.fakeobjects.clima;
 
 import java.util.Date;
 

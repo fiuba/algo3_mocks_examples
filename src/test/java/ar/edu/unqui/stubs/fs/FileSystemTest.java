@@ -1,4 +1,4 @@
-package ar.edu.unqui.fs;
+package ar.edu.unqui.stubs.fs;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

@@ -1,4 +1,4 @@
-package ar.edu.unqui.calculadora;
+package ar.edu.unqui.stubs.calculadora;
 
 public class Calculadora {
 
