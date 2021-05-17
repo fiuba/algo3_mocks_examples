@@ -4,8 +4,9 @@ skinparam classAttributeIconSize 0
 interface Reloj
 Reloj : ahora() Date
 
-Reloj <|.. FakeClock
-FakeClock : ahora() Date
+Reloj <|.. StubClock
+StubClock : ahora() Date
+note left: public ahora() { \n \treturn new Date(2020, 10, 12); \n}
 
 Reloj <|.. RelojProductivo
 RelojProductivo : ahora() Date

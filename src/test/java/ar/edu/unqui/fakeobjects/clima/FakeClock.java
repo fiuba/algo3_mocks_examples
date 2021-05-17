@@ -13,6 +13,8 @@ public class FakeClock implements Reloj {
 
     @Override
     public Date ahora() {
+
+
         return FakeClock.crearFecha(fechaHoy);
     }
 

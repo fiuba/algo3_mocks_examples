@@ -1,0 +1,25 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+interface Logger
+Logger : Info(String message)
+
+Verification : verify(...)
+
+MockObject : Info(String message)
+ThirdPartyLogger : Info(String message)
+
+MyService *-- Logger
+MyService : doTask()
+
+Verification <|.. MockObject
+Logger <|.. MockObject
+Logger <|.. ThirdPartyLogger
+
+note left of MyService::doTask
+public void doTask() {
+  this.logger.Info("Task done successfully!");
+}
+end note
+
+@enduml
