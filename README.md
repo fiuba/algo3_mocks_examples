@@ -8,6 +8,8 @@ La definición de este termino es: [Mock](https://www.learnersdictionary.com/def
 
 Notar que la misma palabra ser utilizada como: (1) substantivo, (2) verbo y (3) adjetivo. 
 
+Link a la [presentación](https://docs.google.com/presentation/d/1uOTD0mg3JZJ6x-zsiw4fbBXDPp8XQlK2ZNy2CryPZt4/edit?usp=sharing).
+
 ## Stubs
 
 Van a encontrar lo/s siguente/s ejemplo/s:
