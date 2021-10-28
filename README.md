@@ -2,7 +2,7 @@
 
 # Ejemplos de mocking
 
-Eston son pruebas que involucra `Stub`, `Fake` y `Mocks`. Cada uno de los ejemplos muestra utilidad para cado uno de estos casos de impostores.
+Las siguientes son pruebas que involucra `Stub`, `Fake` y `Mocks`. Cada uno de los ejemplos muestra utilidad para cado uno de estos casos de impostores.
 
 La definición de este termino es: [Mock](https://www.learnersdictionary.com/definition/mock).
 
