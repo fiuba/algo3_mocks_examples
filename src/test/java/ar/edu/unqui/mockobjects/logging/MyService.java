@@ -9,6 +9,10 @@ public class MyService {
     }
 
     public void doTask() {
+        //
+        // Nuestro código
+        //
+
         this.logger.Info("Task done successfully!");
     }
 }

@@ -12,13 +12,19 @@ public class CalculadoraTest {
     @Test
     public void calculadoraDependeModuloMultiplicadorNoImplementado() {
         Multiplicador m = Mockito.mock(Multiplicador.class);
-        when(m.producto(1, 2)).thenReturn(4);       // Test Stub con comportamiento fallido
+
+        // Test Stub con comportamiento fallido
+        when(m.producto(1, 2)).thenReturn(4);
 
         Calculadora c = new Calculadora(m);
 
+        // Notas:
+        // - Relación entre mi assert y la construcción del Stub.
+        // - Podemos crear comportamiento defectuoso.
         assertEquals(4, c.producto(1,2));
 
         // Agrega valor?
+        // - Esta verificación no es propia de un 'Stub'
         // verify(m).producto(1,2);
     }
 
