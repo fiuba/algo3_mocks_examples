@@ -15,6 +15,7 @@ public class Clima {
         this.reloj = reloj;
         this.pronosticoPorDia = new HashMap<Date, String>() {{
                 put(Clima.crearFecha("01/06/2020"), "Nublado");
+                put(Clima.crearFecha("01/07/2020"), "Granizo");
         }};
     }
 
